@@ -1,0 +1,128 @@
+body {
+    background: #ccc;
+}
+
+#wrapper {
+    margin: 10px auto;
+    width: 960px;
+    height: 400px;
+    background: #ddd;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../css/fonts/Pamela wants to Ride.ttf");
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url("../css/fonts/Pamela want a Bike to Ride.ttf");
+}
+
+nav li{
+    font-family: myFirstFont;
+    font-size: 30px;
+    color: red;
+}
+
+nav li:hover {
+    font-family: mySecondFont;
+    font-size: 30px;
+    color: red;
+}
+
+div img {
+    float: left;
+    width: 30%;
+    padding: 10px 20px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#face, #tweeter, #vmail {
+    background: url("../css/images/sprites-transparent.png");
+    display: inline-block;
+}
+
+#face{
+    width: 75px;
+    height: 75px;
+    background-position: -75px 0px;
+}
+#face:hover{
+    width: 75px;
+    height: 75px;
+    background-position: -75px -155px;
+}
+
+#tweeter {
+    width: 75px;
+    height: 75px;
+    background-position: 0px 0px;
+}
+
+#tweeter:hover{
+    background-position: 0px -77px;
+}
+
+#vmail {
+    width: 75px;
+    height: 75px;
+    background-position: 150px 0px;
+}
+
+#vmail:hover{
+    width: 75px;
+    height: 75px;
+    background-position: 150px -230px;
+}
+
+P {
+    float: left;
+    padding-right:  100px;
+}
+
+table {
+    width: 500px;
+    height: 170px;
+    background: yellow;
+    padding: 10px;
+    margin: 10px ;
+}
+
+th {
+    background: orange;
+    padding: 20px;
+}
+
+td {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 5px 15px;
+}
+
+#green:hover {
+    background: green;
+}
+
+#red:hover {
+    background: red;
+}

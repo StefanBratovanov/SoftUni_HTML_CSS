@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+body {
+    background: url("../img/colorful_dots_on_black.jpg");
+    background-size: 20%;
+    max-height: 1580px;
+}
+
+body > header {
+    color: yellow; 
+    text-align: center;
+    font-size: 48px;
+    background: linear-gradient(to right,red,red 33%,green 33%,green 66%, blue 66%);
+    height: 80px;
+    padding-top: 5px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+aside {
+    display: inline-block;
+    width: 18%;
+    float: left;
+    background: rgba(255,255,255,0.85);
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+section article{
+    width: 73%;
+    float: right;
+    background: rgba(255,255,255,0.85);
+    border-radius: 20px;
+    margin-bottom: 7px;
+    margin-right: 24px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+aside nav header {
+    font-size: 24px;   
+    text-decoration: underline;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+}
+
+aside ul li {
+    list-style-type: none;
+    position: relative;
+    padding: 5px;
+    padding-left: 35px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+li:before {
+    position:absolute;
+    background-image: url("../img/OK.png");
+    width: 20px;
+    height: 20px;
+    content: "";
+    top:7px;
+    left: 7px;
+}
+
+a:visited {
+    color: #aaa;
+}
+
+aside li:nth-child(1):hover {
+    background: #ff0000;
+    border-radius: 8px;
+}
+
+aside li:nth-child(2):hover {
+    background: #ffa500;
+    border-radius: 8px;
+}
+
+aside li:nth-child(3):hover {
+    background: #ffff00;
+    border-radius: 8px;
+}
+
+aside li:nth-child(4):hover {
+    background: #008000;
+    border-radius: 8px;
+}
+
+aside li:nth-child(5):hover {
+    background: #0000ff;
+    border-radius: 8px;
+}
+
+aside li:nth-child(6):hover {
+    background: #800080;
+    border-radius: 8px;
+}
+
+section article header {
+    padding: 8px;
+    font-size: 24px;   
+    border-radius: 8px;
+}
+
+#webColors {
+    background: #ff0000;
+    color: white;
+}
+
+#webSafeColors {
+    background: #ffa500;
+    color: black;
+}
+
+#RGB {
+    background: #ffff00;
+    color: black;
+}
+
+#RGBA {
+    background: #008000;
+    color: white;
+}
+
+#\#HSLHSV {
+    background: #0000ff;
+    color: white;
+}
+
+#\#lorem {
+    background: #800080;
+    color: white;
+}
+
+article div:first-line {
+    font-style: italic;
+}
+
+article div:first-letter {
+    font-size: 300%;
+}
+
+footer {
+    font-style: italic;
+    padding-top: 4px;
+}
+
+span[lang] {
+    color: #00008b;
+    font-style: italic;
+}
+
+span:lang(la):before, span:lang(la):after {
+    content: '"'
+}
+
+/*
+aside ul {
+    list-style-image: url(../img/OK.png);
+    padding-left: 30px;
+    padding-top: 10px;
+}*/

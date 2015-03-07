@@ -1,0 +1,43 @@
+body{
+    font-family: century gothic;
+    background: url(background.png) no-repeat;
+    width: 963px;
+    height: 515px;
+}
+
+h1{
+    color: #e6b74e;
+    margin-left: 20px;
+}
+
+h2{
+    color: white;
+    font-weight:500;
+    font-size: 26px;
+}
+
+ul{
+    list-style-type: square;
+    color:  #fae3af;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+span{
+    color: #e6b74e;
+    font-weight:bold;
+}
+
+.box{
+    background-color: rgba(92, 86, 86, 0.5);
+    font-size: 20px;
+    padding: 5px;
+    width: 89%;
+    border: 2px solid #868585;
+    margin-left: 20px;
+    margin-top:-12px;
+    margin-bottom: -16px;
+}
+#paddedRow{
+    margin-left: 30px;
+}

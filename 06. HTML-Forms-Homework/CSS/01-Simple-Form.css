@@ -1,0 +1,148 @@
+body,h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma,sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    background: #eee;
+    margin: 20px;
+    height: 280px;
+}
+
+h1 {
+    color: #3a6188;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+h1 > span {
+    color: #aaa;
+    font-size: .5em;
+    display: block;
+    padding: 10px 0px;
+    font-weight: normal;
+}
+
+form fieldset {
+    width: 43%;
+    border: none;
+    display: inline;
+    vertical-align: top;
+}
+
+#new-students {
+    position: relative;
+    top: -20px; 
+    padding-bottom: 0px;
+}
+
+#new-students legend {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #878787;
+    padding-left: 0px;
+    padding-top:20px; 
+}
+
+#new-students legend span {
+    color: #3a6188;
+}
+
+#new-students input {
+    height: 15px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 0.7em;
+    border: 1px solid #cecdcd;
+    border-radius: 2px;
+}
+
+#new-students input[type="submit"] {
+    height: 100%;
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 12px;
+    border: 2px solid #3a6188;
+    border-radius: 0px;
+    background: #eee;
+    color: #3a6188;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#new-students input[type="submit"]:hover {
+    background:#3a6188;
+    color:#eee;
+    cursor: pointer;
+}
+
+#login-students {
+    background: #3a6188;
+    position: relative;
+    top: -25px; 
+}
+
+#login-students legend {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #fff;
+    padding-top:30px;  
+    margin-bottom: 5px;
+}
+
+#login-students>input {
+    height: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 95%;
+    font-size: 0.7em;
+    border: 1px solid #cecdcd;
+    border-radius: 2px;
+}
+
+#rememberMe{
+    margin: 0px;
+}
+
+p > label {
+    font-size: .6em;
+    color: #fff;
+    vertical-align: top;
+    position: relative;
+    top: 2px;
+}    
+
+p, #login-students input[type="submit"] {
+    display: inline;
+}
+
+#login-students input[type="submit"] {
+    height: 100%;
+    width: 50%;
+    float: right;
+    border: 2px solid #e3910d;
+    border-radius: 0px;
+    background: #3a6188;
+    color: #fff;
+    font-weight: bold;
+}
+
+#login-students input[type="submit"]:hover {
+    background: #e3910d;
+    color: #3a6188;
+    cursor: pointer;
+}
+#login-students a {
+    font-size: .6em;
+    color: #fff;
+    float: right;
+    position: relative;
+    top: 8px;
+    left: 100px;
+    margin-bottom: 49px;
+}

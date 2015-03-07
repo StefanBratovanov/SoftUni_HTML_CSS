@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/02-Flight-Order.css">
+    <title>Flight Order</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form method="post">
+            <h1>FLIGHT ORDER</h1>
+            
+            <div class="row">
+               <div class="column">
+                    <label for="from">From</label>
+                    <select name="fromCity" id="from">
+                        <option value="default">enter a city</option>
+                        <option value="SF">Sofia</option>
+                        <option value="VT">Veliko Tyrnovo</option>
+                        <option value="KP">Kaspichan</option>
+                        <option value="UPD">Gorno Uino</option>
+                    </select>
+               </div>
+               <div class="column">
+                    <label for="to">To</label>
+                    <select name="toCity" id="to">
+                        <option value="default">enter a city</option>
+                        <option value="SF">Sofia</option>
+                        <option value="VT">Veliko Tyrnovo</option>
+                        <option value="KP">Kaspichan</option>
+                        <option value="UPD">Gorno Uino</option>
+                    </select>
+                    <span>
+                    <input type="checkbox" id="direct">
+                    <label for="direct">Prefer directs</label>
+                    </span>
+                </div> 
+           </div>   
+                           
+            <div class="row">
+                <div class="column">                            
+                    <label for="departure-date">Departure Date</label>
+                    <input type="date" id="departure-date" value="2015-02-25">
+                </div> 
+                <div class="column">    
+                    <label for="depart-time-start" class="interval">Time interval</label>
+                    <input type="time" id="depart-time-start" value="00:20">
+                    <input type="time" id="depart-time-end" value="05:00">
+                </div>  
+            </div>   
+            
+            <div class="row">
+                <div class="column">                            
+                    <label for="return-date">Return Date</label>
+                    <input type="date" id="return-date" value="2015-02-27">
+                </div> 
+                <div class="column">    
+                    <label for="return-time-start" class="interval">Time interval</label>
+                    <input type="time" id="return-time-start" value="16:00">
+                    <input type="time" id="return-time-end" value="22:00">                     
+                </div>  
+            </div>            
+
+            <div class="row">
+                <div class="column">    
+                   <div class="age">
+                     <label for="adults">12+</label>
+                     <input type="number" name="adults" id="adults" min="0"  placeholder="0">
+                   </div>
+                   <div class="age">
+                     <label for="youth">2-12</label>
+                     <input type="number" name="youth" id="youth" min="0"  placeholder="0">
+                   </div >
+                   <div class="age">
+                     <label for="infants">0-2</label>
+                     <input type="number" name="infants" id="infants" min="0"  placeholder="0">
+                   </div>
+                </div>  
+                <div class="column">   
+                     <label for="flight-class">Choose class</label>
+                     <select name="flight-class" id="flight-class">     
+                        <option value="economy">Economy</option>
+                        <option value="business">Bussines</option>
+                     </select>
+                </div> 
+            </div> 
+            <div class="row">
+                <input type="submit" value="Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+body,h1,h2,h3,form {
+    font-family: tahoma,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    background: #3B5997;
+    color: white;
+    width: 860px;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+h1 span {
+    font-size:25px ;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border-radius: 10px;
+    border-color: #eee;
+}
+
+#left {
+    width:300px ;
+    float: left;
+    height: auto;
+    margin-left: 15px;
+}
+
+#right {
+    width:440px ;
+    float: left;
+    height: auto;
+    margin-left: 30px;
+}
+legend {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.not-important {
+    width: 43%;
+    margin-bottom: 8px;
+    margin-left: 2px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#birthday {
+    width: 70%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#gender label {
+    width: 19%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: .8em;
+}
+
+#country, #village, #district{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+#street {
+    width: 26.5%;
+}
+
+#num, #floor, #ap-num {
+    width: 15%;
+    margin-bottom: 8px;
+}
+
+#watermeter,#pants-size {
+    width: 31.5%;
+    
+     margin-bottom: 8px;
+}
+
+#color {
+    width: 28.5%;
+    padding: 2px;
+    position:relative;
+    top: 2px;
+}
+
+textarea {
+    width: 97%;
+    border-radius: 5px;
+    height: 50px;
+}
+
+#reset {
+    width:325px;
+    margin: 15px 0px 12px 15px;
+    border-radius: 10px;
+    height: 45px;
+    font-weight: bold;
+    color: #3B5997;
+    font-size: 1.1em;
+}
+
+#submit {
+    width:465px;
+    margin: 15px 0px 12px 29px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #3B5997;
+    font-size: 1.3em;
+}
+
+#submit:hover {
+    background: #3B5997;
+    color: #eee;
+}
+
+#reset:hover {
+    background: #3B5997;
+    color: #eee;
+}

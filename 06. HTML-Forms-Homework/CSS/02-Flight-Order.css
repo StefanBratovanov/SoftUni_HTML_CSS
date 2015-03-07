@@ -1,0 +1,70 @@
+#wrapper {
+    width: 460px;
+    background: pink;
+    font-family: tahoma, sans-serif;
+    font-style: italic;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+label {
+    display: block;
+    font-size: 0.8em;
+}
+#direct, label[for="direct"] {
+    display: inline;
+}
+
+div.row {
+    display:inline-block;
+    width: 98%;
+    margin-bottom: 5px;
+    
+}
+
+div.column {
+    width: 48.8%;
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+}
+
+input, select{
+    font-size:1em;    
+    line-height:1.2em;
+    padding:3px;
+}
+
+input[type="text"],select{
+    width:100%;
+}
+
+input[type="date"] {
+    width:95%;
+}
+
+input[type="time"] {
+    width:44%;
+}
+
+div.age {
+    display: inline-block;
+    width: 30%;
+    padding-right: 3px;
+}
+
+input[type="number"] {
+    width: 90%;
+}
+
+input[type="submit"] {
+    float: right;
+    font-size: 1.3em;
+    width: 48.5%;
+    margin-right: 2px;
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: century gothic;
+    font-size: 16px;  
+}
+
+table, th, tr, td {
+    border: solid;
+    border-width: 1px;
+}
+
+td, th {
+    height: 80px;
+    width: 80px;   
+}
+
+table th{
+    font-size: 50px;
+}
+
+td table td {
+    height:40px;
+}
+
+#google{
+    vertical-align: top;
+}
+
+#git{
+    vertical-align: top;
+    text-align: right;
+}
+
+#face {
+    vertical-align: top;
+    text-align: center;
+}
+
+#youtube{
+    vertical-align:bottom;
+    text-align: center;
+}
+
+#food{
+    vertical-align: bottom;
+    text-align:right;
+}
+
+#game{
+    vertical-align: bottom;
+}
+
+#tableSocial{
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+
+#beer{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}

@@ -1,0 +1,60 @@
+html {
+    background-image: url(resources/backgroundImage.jpg);
+    background-size: cover;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 530px;
+    height: 350px;
+    margin: 20px auto;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    border-bottom: 1px solid orange;
+}
+
+form {
+    width: 45%;
+    float: left;
+    background: rgb(190, 149, 149);
+    opacity: .8;
+}
+
+#username,#userpass,#submit,#confirm-userpass {
+    display: inline-block;
+    width: 80%;
+    margin-left: 30px
+    
+}
+
+#username {
+    position: relative;
+    
+}
+
+#username input {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#username span {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image:url(resources/username-icon.png);
+    background-repeat: no-repeat;
+    top: 3px;
+    background: #eee;
+    
+ 
+}

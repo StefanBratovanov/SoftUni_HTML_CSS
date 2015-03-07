@@ -1,0 +1,15 @@
+body{
+    background-color: hsl(189, 45%, 77%);
+}
+
+img{
+    border: 2px solid #625e5e;
+}
+
+span{
+    font-weight: bold;
+}
+
+dt{
+    font-style: italic;
+}

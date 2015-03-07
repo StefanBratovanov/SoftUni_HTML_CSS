@@ -1,0 +1,170 @@
+body {
+	font-family:Raleway, sans-serif;
+	margin-bottom: 0;
+}
+
+#wrapper {
+	width: 980px;
+	margin: 0px auto;
+	
+}
+
+#wrapper > header> nav {
+	float: right;
+	margin-right: 20px;
+}
+
+#wrapper > header> nav:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#wrapper > header > img {
+	width: 100px;
+	margin-left: 20px;
+}
+
+
+#wrapper > main > header {
+	background-image: url(../background-large.jpg);
+	background-size: cover;
+	height: 430px;
+	
+}
+
+header>nav>ul {
+	display: inline-block;
+
+}
+
+header>nav>ul li {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+header>nav>ul>li:first-child {
+	background: #4db8cf;
+}
+
+#wrapper>header>nav>ul>li:nth-child(1) > a{
+	color: white;
+}
+
+header>nav>ul li:hover {
+	background: #eee;
+	text-decoration: underline;
+}
+
+header>nav>ul li a {
+	text-decoration: none;
+	color: #777;
+	font-weight: bold;
+}
+
+
+#wrapper > main > header > h1, #wrapper > main > header > h3 {
+	text-align: center;
+	color: white;
+}
+
+#wrapper > main > header > h1 {
+	padding: 40px 20px 10px 20px;	
+}
+
+#wrapper > main > header > h3 {
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0 30px;
+}
+
+#wrapper > main > header > div > p {
+	margin: 20px 380px;
+	padding: 10px 0px; 
+	background-color: #2c2c2c;
+	opacity: 0.7;
+	color: white;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	text-align: center;
+}
+
+#wrapper > main > header > div > p:hover {
+	background-color: #191919;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+main section article {
+	width: 28%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	padding: 10px;
+}
+
+main section article:hover {
+	background: #ccc;
+	cursor: pointer;
+}
+
+main section article:hover a {
+	text-decoration: underline;
+}
+
+main section header h2{
+	text-align: center;
+	font-weight: normal;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+main section article h3 {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+main section article p {
+	font-size: 18px;
+}
+
+#searchTab img,#navTab img,#shopTab img{
+	width: 40px;
+}
+
+article {
+	margin-bottom: 40px;
+}
+
+article a {
+	font-size: 14px;
+	color: blue;
+	text-decoration: none;
+}
+
+footer {
+	min-width: 100%;
+	background-color: #111;
+	border-top: 3px solid #009aca;
+}
+
+footer .warp {
+	width: 980px;
+	margin: 0 auto;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+	margin: 0;
+	color: #323230;
+}
+
+#logoImg:hover {
+	transform: rotate(-15deg);
+	cursor: pointer;
+}
+	

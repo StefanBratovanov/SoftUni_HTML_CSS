@@ -1,0 +1,68 @@
+body,ul,li,a {
+    font-family: thoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sub-navigation {
+    display: none;
+}
+
+.profile-navigation {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+ul ul {
+    list-style-type: none;
+}
+
+header a img {
+    float: left;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.sub-navigation li {
+    float: none;
+    margin:auto;
+    width: 200px;
+    background: #1c3650;
+}
+
+.notification {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.notification ul {
+    list-style-type: none;
+    float: left;
+    position: absolute;
+}
+
+
+.profile-navigation li {
+    float: none;
+    margin:auto;
+    width: 200px;
+    background: #1c3650;
+}

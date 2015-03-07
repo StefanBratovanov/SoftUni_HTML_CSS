@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f7f7f7;
+	font-family:Arial ,Helvetica, sans-serif ;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 20px auto;
+} 
+
+#wrapper header {
+	margin-bottom: 20px;
+}
+
+#wrapper > aside {
+	width: 20%;
+	display: inline-block;
+	clear: both;
+	border: 1px solid gray;
+	padding: 20px 10px;
+	background: #fff;
+	margin-top: 13px;
+}
+
+#wrapper form {
+	width: 50%;
+	float: left;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+.container{
+	display:inline-block;
+	width: 65%;
+	padding: 5px;
+	background-color: #e6e6e6;
+	margin-bottom: 5px;
+}
+
+#wrapper > form > fieldset > label {
+	width: 25%;
+	float: left;
+	background-color: #ccc;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: #666666;
+}
+
+#wrapper > form > fieldset > div> input {
+	width: 80%;
+	padding-left: 30px;
+}
+
+.container-submit {
+	width: 67%;
+	float: right;
+	margin-right: 7px;
+	border: 1px solid grey;
+	margin-bottom: 10px;
+}
+
+#wrapper > form > fieldset > div > input[type="submit"]{
+	width: 60px;
+	padding: 3px;
+	margin: 5px 35px ;
+	float: right;
+	background-color: #cccccc;
+	color: #55556f;
+	font-weight: bold;
+}
+
+#wrapper > form > fieldset {
+	border: 1px dotted gray;
+}
+
+#wrapper > form  > fieldset > legend {
+	padding: 5px;
+	margin: 5px 5px 5px 10px;
+	background-color: #666666;
+	color: white;
+}
+
+#username {
+	background-image: url(username-icon.png);
+	background-repeat: no-repeat;
+}
+
+#password {
+	background-image: url(password-icon.png);
+	background-repeat: no-repeat;
+}
+
+#city,#country,#address,#name {
+	background-image: url(field-icon.png);
+	background-repeat: no-repeat;
+}
+
+#wrapper > aside > p {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+
+#wrapper > form > fieldset > div> input:hover {
+	background-color: #f7f5d2;
+	cursor: pointer;
+}
+
+#wrapper > form > fieldset > div > input[type="submit"]:hover {
+	background-color: #6f6f6f;
+	color: #222;
+	font-weight: bold;
+}

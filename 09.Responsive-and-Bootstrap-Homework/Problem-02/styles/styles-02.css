@@ -1,0 +1,240 @@
+body, header, nav, ul, li, section, article, h1, h2, aside, a, p, div, footer, img {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: tahoma, sans-serif;
+    background-image: url(../images/background-flowers.jpg);
+}
+
+#wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+#wrapper>header, #wrapper>footer, #wrapper>section, aside.left, aside.right {
+    background-color: rgba(255, 221, 243,0.7);
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+/*HEADER*/
+#wrapper header {
+    flex: 1 100%;
+    padding: 0px 10px;
+}
+
+#wrapper header h1 a {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+#wrapper header h1 a span{
+    color: black;
+}
+
+#wrapper header img {
+    height: 20%;
+    width: 20%
+}
+
+#wrapper header nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-bottom: 2%;
+}
+
+#wrapper header nav ul li {
+    background: #EB2A7B;
+    margin-left: 1%;
+    border: 1px solid black;
+    padding: 1% 4%;
+    width: 8%;
+    text-align: center;
+}
+
+#wrapper header nav a {
+    color: white;
+    font-size: 1em;
+}
+
+/*ASIDES*/
+
+#wrapper aside.left {
+    flex: 1;
+    order: 1;
+    font-size: 1em;
+}
+
+#wrapper aside.left ul {
+    margin: 6%;
+}
+
+#wrapper aside.left ul li a {
+    color: black;
+}
+
+#wrapper aside.left img {
+    vertical-align: middle;
+    margin-bottom: 2%;
+}
+
+#wrapper aside.right {
+    flex: 1;
+    order: 3;
+    font-size: 1em;
+}
+
+#wrapper aside.right ul {
+    margin: 12% 6%;
+}
+
+/*SECTION*/
+
+#wrapper section {
+    flex: 3;
+    order: 2;
+    margin: 0 2%;
+    height: 100%;
+}
+
+#wrapper section header h1 {
+    font-size: 1.5em;
+    margin: 2% 1% 0% 1%;
+}
+
+#wrapper section div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 2% 4%;
+}
+
+#wrapper section div img {
+    width: 23%;
+    height: 23%;
+    margin: 0.5% 1%;
+}
+
+/*FOOTLOCKER*/
+
+footer {
+    flex: 1 100%;
+    order: 5;
+    text-align: center;
+    padding: 1%;
+    font-size: .7em;
+}
+
+footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+/*RESPONSIVE SHAIT*/
+
+@media only screen and (max-width: 960px) {
+    #wrapper {
+        width: 100%;
+    }
+    
+    #wrapper header nav ul li {
+        width: 10%;
+    }
+    
+    #wrapper section div img {
+        width: 30%;
+        height: 30%;
+    }
+    
+    #wrapper section {
+        margin-bottom: 2%;
+    }
+}
+    
+@media only screen and (max-width: 780px) {
+    #wrapper header h1 a {
+        justify-content: space-around;
+    }
+    
+    #wrapper header nav ul {
+        justify-content: center;
+    }
+    
+    #wrapper header nav ul li {
+        width: 15%;
+    }
+    
+    #wrapper header h1 a span{
+        font-size: 1.2em;
+    }
+
+    #wrapper header img {
+        height: 30%;
+        width: 35%
+    }
+    
+    #wrapper aside.left {
+        flex: 1 100%;
+        order: 2;
+    }
+    
+    #wrapper section {
+        order: 1;
+        height: 100%;
+        margin: 0 0 2% 0;
+    }
+    
+    #wrapper aside.left ul {
+        margin: 3% 3%;
+    }
+    
+    #wrapper aside.right ul {
+        margin: 4% 3%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #wrapper header h1 a  {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9em;
+    }
+    
+    #wrapper header h1 a img {
+        width: 50%;
+    }
+   
+    #wrapper header nav ul {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    
+    #wrapper header nav ul li {
+        width: 88%;
+        line-height: 150%;
+    }
+    
+    #wrapper section div img {
+        width: 48%;
+    }
+    
+    #wrapper aside.left img {
+        margin-bottom: 0.5%;    
+    }
+}

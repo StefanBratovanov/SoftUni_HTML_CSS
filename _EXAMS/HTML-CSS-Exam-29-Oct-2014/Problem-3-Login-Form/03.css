@@ -1,0 +1,113 @@
+@font-face {
+    font-family: gliph;
+    src:url("glyphicons-halflings-regular.ttf");
+}
+
+body,section, ul {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+/*    background-image: url(background.png);*/
+}
+
+main {
+    width: 750px;
+    height: 320px;
+    background: #333;
+    margin: 0 auto;
+    border: 1px solid red;
+    overflow: auto;
+}
+
+main>header {
+    background: #679966;
+    width: 700px;
+    margin: 0 auto;
+    margin:25px auto 10px auto;
+}
+
+
+
+main header h1 {
+    font-size: 25px;
+    color: #d7e5ee;
+    text-align: center;
+}
+
+section {
+    width: 350px;
+    height: 215px;
+    display: inline-block;
+  
+    vertical-align: top;
+    
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.adv {
+    
+}
+
+.adv>article {
+    height: 50%;
+}
+
+.fire {
+    border-bottom: 1px solid white;
+}
+
+.fire:before {
+    font-family:gliph;
+    content: "\e104";
+    display: block;
+    margin: 10px 0 0 40%;
+    font-size: 3em;
+    color: #d7e5ee;
+}
+
+.menu>ul>li  {
+  list-style-type: none;
+    text-align: center;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+}
+
+.menu>ul>li:before {
+     font-family:gliph;
+ 
+    content: "\e089";
+}
+
+.login header {
+    text-align: center;
+}
+
+.login form input {
+    display: inline-block;
+    width: 90%;
+    margin-top: 10px;
+    height: 20px;
+    
+    
+}
+
+.login form label[for="username"]:before {
+    font-family:gliph;
+    content: "\e008";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: green;
+    
+}
+
+.login form label[for="pass"]:before {
+    font-family:gliph;
+    content: "\e135";
+    
+}

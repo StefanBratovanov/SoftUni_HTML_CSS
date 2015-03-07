@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Patua One'), local('PatuaOne-Regular'), url(http://fonts.gstatic.com/s/patuaone/v6/yAXhog6uK3bd3OwBILv_SFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:Georgia,sans-serif;
+}
+
+#wrapper{
+	width: 940px;
+	margin: 0 auto; 
+}
+
+#wrapper > header{
+	display: block;
+	width: 564px;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+
+#wrapper > header > #imgAndH1 {
+	display: block;
+	text-align: center;
+}
+
+#wrapper > header > #imgAndH1 > img,#wrapper > header > #imgAndH1> h1{
+	display: inline-block;
+}
+
+#wrapper > header > #imgAndH1> h1 {
+	font-family: 'Patua One';
+	font-size: 45px;
+	vertical-align: top;
+}
+
+#wrapper > header > #imgAndH1 > img {
+	width: 50px;
+}
+
+#wrapper > header > h3 {
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+	color: gray;
+}
+
+#wrapper > nav {
+	width: 654px;
+	margin: 0 auto;
+	
+}
+
+#wrapper > nav > ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 15px 0px;
+	border-bottom: 2px dotted gray;
+	border-top: 2px dotted gray;
+}
+
+#wrapper > nav > ul> li{
+	display: inline-block;
+	padding: 10px;
+	margin: 15px 0px;
+	border-radius: 5px;
+}
+
+#wrapper > nav > ul > li:nth-child(1) {
+	background-color: #d4d3d3;
+	
+}
+
+#wrapper > nav > ul> li > a {
+	font-family: Georgia,sans-serif;
+	text-decoration: none;
+	color:gray;
+}
+
+
+#wrapper > aisde {
+	display:inline-block;
+	width: 25%;
+	
+}
+
+#wrapper > main > header {
+	width: 55%;
+	float: left;
+}
+
+#wrapper > main > article {
+	float: left;
+	width: 75%;
+}
+
+#wrapper > main > header {
+	margin: 20px 20px 20px 100px;
+	border-bottom: 2px dotted gray;
+	border-top: 2px dotted gray;
+	padding: 20px;
+}
+
+#wrapper > main > header > h2,#wrapper > main > header >p {
+	text-align: center;
+	color: gray;
+}
+
+#wrapper > main > header >p {
+	font-size: 13px;
+	margin: 5px 0px;
+}
+
+#wrapper > main > article> h3 {
+	margin: 20px 0px;
+	font-size: 24px;
+}
+
+#wrapper > aisde > nav ul {
+	list-style-type: none;
+}
+
+#wrapper > aisde > nav {
+	padding: 15px;
+	margin-top: 10px;
+	border: 2px dotted gray;
+	background-color: #f7f3f3;
+}
+
+#searchbox {
+	width: 60%;
+}
+
+#wrapper > aisde > nav button {
+	padding: 0px 5px;
+}
+
+#wrapper > aisde > nav > ul  a {
+	text-decoration: none;
+	color: blue;
+}
+
+#wrapper > aisde > nav > p {
+	margin: 10px 0;
+}
+
+#wrapper > aisde > nav   li {
+	margin: 5px 0;
+}
+
+footer {
+	clear: both;
+	min-width: 100%;
+	background-color: #cecece;
+	margin-top: 30px;
+	padding: 20px;
+}
+
+footer p {
+	color: #747474;
+	text-align: center;
+}
+
+#wrapper > nav > ul > li:hover a {
+	color: black;
+	font-weight: bold;
+}
+
+#imgAndH1 > h1:hover {
+	cursor: pointer;
+}
+
+#wrapper > aisde > nav > ul > a:hover {
+	text-decoration: underline;
+	color:red;
+}

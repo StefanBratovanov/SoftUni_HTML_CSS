@@ -1,0 +1,148 @@
+body,ul,li,a {
+    font-family: thoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    width: 1200px;
+    background: #234465;
+    padding: 20px 0px 5px 20px;
+}
+
+.sub-navigation {
+    display: none;
+}
+
+nav ul li:hover >.sub-navigation {
+    display: block;
+}
+
+.profile-navigation {
+    display: none;
+}
+
+#user-info:hover~.profile-navigation{
+    display: block;
+
+}
+
+
+nav ul {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    margin-top: 40px;
+    margin-left: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav ul li:nth-of-type(2),nav ul li:nth-of-type(3) {
+    padding: 0px;
+    position: relative;
+    top: -4px;
+}
+
+header a img {
+    float: left;
+}
+
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.sub-navigation {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sub-navigation li {
+    float: none;
+    margin:auto;
+    width: 200px;
+    background: #1c3650;
+    position: relative;
+}
+
+.sub-navigation li a {
+    display: block;
+    padding: 10px;
+}
+
+.profile-navigation {
+    position: absolute;
+    top: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-navigation li {
+    float: none;
+    margin: 0px;
+   
+    position: relative;
+    left: 20px;
+    background: #1c3650;
+    width: 200px;
+}
+
+.profile-navigation li a {
+    display: block;
+    padding:5px;
+    
+}
+
+
+.notification {
+    position: absolute;
+    left: 810px;
+    top: 0%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.notification input[type="text"] {
+    height: 20px;
+    width: 238px;
+    margin: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    position: relative;
+    top:-5px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-color: transparent;
+    padding-left: 5px;
+}
+
+.notification input[type="image"] {
+    height: 24px;
+    margin: 0px;
+    padding: 0;
+    position: relative;
+    top: 3px;
+    left: -5px;
+}
+
+.notification img {
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+

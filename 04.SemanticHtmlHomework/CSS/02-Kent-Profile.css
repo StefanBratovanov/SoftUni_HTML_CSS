@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    font-family:Tahoma,sans-serif;
+    width: 800px;
+    height: 260px;
+    background: #ffc0cb;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+section h5 {
+    padding-bottom: 5px;
+}
+
+#user{
+    display:inline-block;
+    width: 25%;
+    height: 85%;
+    vertical-align: top;
+    padding-bottom: 5px;
+}
+
+#audioFiles{
+    display:inline-block;
+    width: 38%;
+    height: 80%;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+#audioFiles embed {
+    height: 43%;
+    padding-bottom:6px;
+}
+
+#audioFiles audio {
+    height: 12%;
+    padding-bottom: 6px;
+}
+
+#video {
+    display:inline-block;
+    vertical-align: top;
+}
+
+meter {
+    width: 80%;
+}

@@ -1,0 +1,80 @@
+body {
+    font-family: century gothic;
+    text-align: center;
+    font-size: 16px;  
+}
+
+table, th, tr, td {
+    border: solid;
+    border-width: 1px;
+}
+
+table td, table th {
+    height: 80px;
+    width: 80px;   
+}
+
+table td table {
+    border: none;
+}
+
+table td table td {
+    height: 35px;
+    border: none;
+}
+
+table th button {
+    width: 360px;
+    height: 76px;
+    font-size: 26px;    
+    color: blue;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 4px;
+}
+
+table th button:hover{
+    font-size: 28px;    
+}
+
+button {
+    width: 76px;
+    height: 76px;
+    font-size: 14px;  
+    color: blue;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #fff 0%,#ececec 50%,#dadada 51%,#9f9d9d 100%);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button:hover {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#google button, #git button ,#game button{
+    width: 170px;
+     margin: 4px;
+}
+
+.halfHeight button {
+    font-size: 13px;
+    height: 38px;
+}
+
+.halfHeight button:hover {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#whiskey button {
+    width: 260px;
+    text-align: right;
+    margin: 4px;
+}
+
+#whiskey button:hover {
+    font-size: 26px;
+    cursor: pointer;
+}

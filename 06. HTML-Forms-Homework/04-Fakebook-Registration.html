@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/04-Fakebook-Registration.css">
+    <title>Fakebook Registration</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>fakebook<span>&reg;</span></h1>
+            <h2>Registration</h2>
+            <h3>It is safe and it will always be!</h3>
+        </header>
+        <form action="" method="post">
+           <fieldset id="left">
+               <legend>Note-Importan Information</legend>               
+               <input type="text" id="first-name" placeholder="First Name" class="not-important">
+               <input type="text" id="last-name" placeholder="Last Name" class="not-important">
+               <input type="email" id="email" placeholder="Your Email" pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}" title="Please enter a valid email address" class="not-important">
+               <input type="tel" id="phone" placeholder="Your Number" pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}" title="Please enter a valid number" class="not-important">
+               <input type="password" id="password" placeholder="Your Password" required="required" class="not-important">
+               <input type="text" name="website" placeholder="Website" class="not-important">
+               <label for="birthday">Birthday</label>
+               <input type="datetime-local" id="birthday" value="2014-05-09T01:58">
+               <div id="gender">
+                   <input type="radio" value="female" id="female" name="sex">
+                   <label for="female">Female</label>
+                   <input type="radio" value="male" id="male" name="sex">
+                   <label for="male">Male</label>
+                   <input type="radio" value="other" id="other" name="sex">
+                   <label for="femotherale">Other</label>
+               </div>
+           </fieldset>
+                
+           <fieldset id="right">   
+               <legend>Importan Information *reqired</legend>
+               <select name="country" id="country" required="required">
+                   <option value="Country">Country</option>
+                   <option value="BG">Bulgaria</option>
+                   <option value="Gr">Greece</option>
+                   <option value="Rom">Romania</option>
+               </select>
+               <input type="text" id="village" placeholder="Village" required="required">
+               <input type="text" id="district" placeholder="District" required="required">
+               <input type="text" id="street" placeholder="Street" required="required">
+               <input type="text" id="num" placeholder="Nr" required="required">
+               <input type="text" id="floor" placeholder="Floor" required="required">
+               <input type="text" id="ap-num" placeholder="Ap Nr" required="required">  
+               <label for="color">Door color</label>   
+               <input type="color" id="color" value="#a217a2" required="required">
+               <input type="watermeter" name="watermeter" id="watermeter" placeholder="Water Meter Nr">
+               <select name="pants-size" id="pants-size" required="required">
+                   <option value="aunt-size">Aunt Pannies' Size</option>
+                   <option value="big">BIG</option>
+                   <option value="huge">HUGE</option>
+                   <option value="enormous">ENORMOUS</option>
+               </select>
+               <label for="info">More Personal Information</label>
+               <textarea name="info" id="info" placeholder="Give us more infomration!!!" required="required"></textarea>
+           </fieldset>  
+           
+           <div id="buttons">
+               <input type="reset" id="reset" value="Clear Form">
+               <input type="submit" id="submit" value="Register">
+           </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+ul, li, input {
+    margin:0px;
+    padding:0px;
+}
+
+table {
+    background-color: #234465;
+    width: 1200px;
+    height: 120px;
+    padding:16px;
+}
+
+table tr td {
+    height: 30px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#bell{
+float:right;
+}
+
+.sub_navigation_list {
+    position:absolute;
+    display:none;
+    margin-top: 10px;
+    background-color: #234465;
+    width: 300px;
+    text-align: left;
+}
+
+table tr td nav ul{
+    text-align: right;
+    
+}
+
+table tr td nav ul li ul a{
+    font-size: 16px;
+}
+
+table tr td nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+table tr td nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+table tr td nav ul li:hover > a {
+    background-color: #e5a108;
+    border-radius: 6px;
+}
+
+table tr td nav ul li:hover > a + ul{
+    display: block;
+}
+
+table tr td nav ul li ul li{
+    display: block;
+    float: none;
+    margin: 2px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #444469;
+}
+
+table tr:first-child td:first-child {
+    text-align: left;
+    width:260px;
+}
+
+table tr:first-child td:last-child {
+    text-align: right;
+    width: 240px;
+}
+
+form input[type="text"] {
+    float: left;
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+form input[type="image"] {
+    float: left;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+

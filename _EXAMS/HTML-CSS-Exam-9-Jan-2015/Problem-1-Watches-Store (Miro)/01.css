@@ -1,0 +1,95 @@
+hmtml, body, h1, h2, h3, p, section {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lemon-Regular, Arial,sans-serif;
+}
+
+#container {
+    width: 1000px;
+    height: 500px;
+    background: purple;
+    margin: 20px auto;
+}
+
+#watches-container {
+    width: 900px;
+    height: 450px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    background: orange;
+    border-radius: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+#watches {
+    text-align: center;
+}
+
+section {
+    width: 220px;
+    display: inline-block;
+    margin-right: 20px;
+    background: purple;
+}
+
+section img {
+    border-radius: 220px;
+    border: 5px solid gray;
+}
+
+section img:hover {
+    border: 5px solid red;
+}
+
+section h2 {
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+section h3 {
+    font-size: 15px;
+    color: #f7b43b;
+    font-weight: bold;
+}
+
+section p {
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+button {
+    width: 90%;
+    color: darkblue;
+    font-weight: bolder;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+
+button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+section {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+}
+

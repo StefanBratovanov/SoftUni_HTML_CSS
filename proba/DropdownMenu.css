@@ -1,0 +1,79 @@
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    background: #eee;
+    display: inline-block;
+    background: linear-gradient(#efefef 0%, #bbbbbb 100%);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 0 20px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul: after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li:hover {
+    background: #4b545f;
+    background: linear-gradient(#4b545f 0%, #3c434b 80%);
+}
+
+nav ul li:hover a {
+    color: #fff;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #4b4a4a;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    border-radius: 0px;
+    background: #6b6f74;
+    padding: 0px;
+}
+
+nav ul ul li {
+    float: none;
+    position: relative;
+    border-bottom: 1px solid #606060;
+}
+
+nav ul ul li a {
+    padding: 10px 30px;
+}
+
+nav ul ul li:hover {
+    background: #48505c;
+}
+
+nav ul ul ul {
+    position: absolute;
+    left:100%;
+    top: 0%;
+}
+
+nav ul ul ul li:hover {
+    background: #30363e;
+}
+
+

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(OpenSans-ExtraBold.ttf);
+}
+
+body {
+    background-color: #eee;
+    font-family: myFirstFont;
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 56px;
+    text-shadow: 1px 1px white;
+    color: #489048;
+}
+
+header h2 {
+    font-size:1.3em ;
+    color: #489048;
+}
+
+
+section {
+    width:960px ;
+    margin: 0 auto;
+}
+
+section article {
+    width: 220px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    
+}
+
+article p {
+    line-height: 25px;
+    font-weight: normal;
+}
+
+section article:hover {
+    background: #ccc;
+    box-shadow: -5px 0 green;
+}
+
+section article h3 {
+    text-shadow: 1px 1px white;
+    
+}

@@ -1,0 +1,195 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+#canvas{
+    width: 960px;
+    height: 320px;
+    background: #00923e;
+    padding: 10px;
+}
+
+table th, table tr td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse:separate;
+    border-spacing: 0;
+    width: 960px;
+    height: 320px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+th {
+    background: #f8c711;
+    height: 16.6%;
+    font-size: 22px;
+}
+
+td {
+    font-size: 18px;
+}
+
+table tr {
+    height: 16.6%;
+}
+
+table tr td:nth-of-type(1), table tr td:nth-of-type(3){
+    width: 19%;
+}
+
+table tr td:nth-of-type(2), table tr td:nth-of-type(4){
+    width: 7%;
+}
+
+table tr td:nth-of-type(5), table tr td:nth-of-type(7){
+    width: 15%;
+    padding: 5px;
+}
+
+select:disabled {
+    height: 30px;
+    color: red;
+    background: #dcdcdc;
+}
+
+select {
+    height: 30px;
+    color: green;
+    background: white;
+}
+
+button {
+    width: 28px;
+    height: 28px;
+    font-size: 8px;
+    border-radius: 28px;
+    background: #008000;
+    color: white;
+}
+button:disabled {
+    background: red;
+}
+
+tr:nth-child(odd) td{
+    background: #c8c8c8;
+}
+
+tr:nth-child(even) td{
+    background: white;
+}
+
+table tr td:nth-of-type(1), table tr td:nth-of-type(5){
+    text-align: right;
+}
+
+table tr td:nth-of-type(3), table tr td:nth-of-type(7){
+    text-align: left;
+}
+
+.bra:after,.spa:after,.ita:after,.arg:after,.ger:after {
+    top: 6px;
+    padding: 5px;  
+}
+
+.mex:before,.ned:before,.eng:before,.bih:before,.por:before {
+    top: 6px;
+    padding: 5px;  
+}
+
+.bra:after {
+    content:url(../img/Bra.png);
+    position: relative;
+}
+
+.spa:after {
+    content:url(../img/Esp.png);
+    position: relative;
+}
+
+.ita:after {
+    content:url(../img/Ita.png);
+    position: relative;
+}
+
+.arg:after {
+    content:url(../img/Arg.png);
+    position: relative;
+}
+
+.ger:after {
+    content:url(../img/Ger.png);
+    position: relative;
+}
+
+.mex:before {
+    content:url(../img/Mex.png);
+    position: relative;
+}
+
+.ned:before {
+    content:url(../img/Ned.png);
+    position: relative;
+}
+
+.eng:before {
+    content:url(../img/Eng.png);
+    position: relative;
+}
+
+.bih:before {
+    content:url(../img/BiH.png);
+    position: relative;
+}
+
+.por:before {
+    content:url(../img/Por.png);
+    position: relative;
+}
+
+table th:first-child{
+    border-top-left-radius: 19px;
+}
+
+table th:last-child{
+    border-top-right-radius: 19px;
+}
+
+table tr:last-child td:last-child{
+     border-bottom-right-radius: 19px;
+}
+
+table tr:last-child td:first-child{
+     border-bottom-left-radius: 19px;
+}
+
+
+
+
+/*.spa{
+    position: relative;
+    padding-right: 40px;
+}
+.spa:after {
+    width: 30px;
+    height: 20px;
+    content: url(../img/Esp.png); 
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+
+table tr:nth-child(odd){
+    background: #c8c8c8;
+}
+
+table tr:nth-child(even){
+    background: white;
+}
+*/

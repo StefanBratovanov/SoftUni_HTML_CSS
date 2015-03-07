@@ -1,0 +1,161 @@
+html {
+    font-family: tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 20px auto;
+}
+
+h1 {
+    padding-left: 50px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: 1px solid #c3c3c3;
+}
+
+nav {
+    display: inline;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #8f8f8f;
+    font-size: 18px;
+    padding-right: 75px;
+}
+
+form {
+    display: inline;
+    float: right;
+}
+
+input[name="search"] {
+    background: #f2efef;
+}
+
+input[name="submit"] {
+    position: relative;
+    right: 25px;
+    top : 4px;
+}
+
+#asideLeft {
+    width: 25%;
+    margin-top: 70px;
+    border-top: 1px solid #c3c3c3;
+    margin-left: 15px;
+    float: left;
+}
+
+aside ul li {
+    list-style-type: none;
+    padding-top: 8px;
+    color: #5aa4ef;
+    font-size: 18px;
+    margin-left: -20px
+}
+
+section {
+    width: 50%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.info {
+    color: #8f8f8f;
+    font-size: 14px;
+    margin-top: -20px;
+    word-spacing: 2px;
+}
+
+section p {
+    line-height: 24px;
+    text-align: justify;
+}
+
+.end-article {
+    color: #5aa4ef;
+    font-size: 14px;
+}
+
+.end-article-section{
+    color: #5aa4ef;
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 20px;
+}
+
+#asideRight {
+    width: 15%;
+    margin-top: 40px;
+    margin-left: 35px;
+    float: left;
+}
+
+#asideRight p {
+    border-bottom: 1px solid #c3c3c3;
+}
+
+footer {
+    float: left;
+    background: black;
+    color: white;
+
+}
+
+.footer {
+    width: 16%;
+    display: inline-block;
+    float: left;
+    font-weight: normal;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+footer ul li {
+	list-style-type: none;
+    margin-left: -35px;
+	font-size: 14px;
+}
+
+#latest p {
+    margin-top: -18px;
+    font-size: 14px;
+}
+
+#latest p.grey {
+    margin-top: -18px;
+    font-size: 14px;
+    color: #828282;
+}
+
+#more p {
+    margin-top: -18px;
+    font-size: 14px;
+    color: #828282;
+}
+
+#more p span {
+    font-size: 14px;
+    color: white;
+}
+
+#TD p {
+    margin-top: -18px;
+    font-size: 14px;
+    color: #828282;
+}

@@ -1,0 +1,100 @@
+body, h2 {
+    font-family: tahoma, sans-serif;
+    margin: 0px;
+}
+
+#wrapper {
+    width: 520px;
+    height: 200px;
+    border-top: 5px dotted yellow;
+    border-right: 10px solid green;
+    border-bottom: 8px double blue;
+    border-left: 5px dashed red;
+    box-shadow: 15px 15px 10px #6d6c6c;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 2.45em;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 8px 8px 8px #908d8d;
+    margin-top: 15px;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.borders {
+    position: relative;
+    border: 2px solid red;
+    border-radius: 50px;
+    box-shadow: 0 0 0 2px yellow,
+                0 0 0 4px green,
+                0 0 0 6px blue;
+}
+
+main p {
+    text-shadow: 8px 8px 8px #908d8d;
+    margin-top: 10px;
+}
+
+#button {
+    font-size: 0.9em;
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #d8921a;
+    padding: 0 10px;
+    border: 2px solid #f8ab20;
+    border-style: outset;
+}
+
+.gray-dotted {
+    opacity: .8;  
+}
+
+#round-rectangle {
+    position: absolute;
+    background: #a9aaaa;
+    width: 90px;
+    height: 40px;
+    top: 50px;
+    left: 505px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 5px;
+    border: 2px dashed white;
+    box-shadow: 0 0 0 3px #a9aaaa;
+}
+
+#small-circle {
+    position: absolute;
+    background: #a9aaaa;
+    width: 2px;
+    height: 2px;
+    top: 141px;
+    left: 420px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 2px dashed white;
+    box-shadow: 0 0 0 3px #a9aaaa;
+}
+
+#middle-circle{
+    position: absolute;
+    background: #a9aaaa;
+    width: 9px;
+    height: 9px;
+    top: 102px;
+    left: 450px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 2px dashed white;
+    box-shadow: 0 0 0 3px #a9aaaa;
+}
